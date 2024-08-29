@@ -1,0 +1,26 @@
+body{
+    background-image: url(/Img/resumo-borrao-interior-da-sala-de-estar_74190-6327.jpg);
+    background-size: cover; /* Faz a imagem cobrir o fundo inteiro */
+    background-position: center; /* Centraliza a imagem no fundo */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    background-size:100%;
+    background-attachment: fixed;
+}
+
+h1{
+    text-align: center;
+    text-size-adjust: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 10cm;
+}
+
+.infos{
+    border: 1px solid rgba(red, green, blue, alpha);
+    width: 200px;
+    height: 20px;
+    outline: 0;
+    align-items: center;
+    margin: 7% 35% 10% 43%; 
+    color: whitesmoke;
+}
+
