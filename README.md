@@ -4,7 +4,7 @@
 - Um site para monitoramento de estoque
 - Criado em equipe
 
-*Tela de cadastro (Incompleto) ✅
+*Tela de cadastro ✅
 
 ![image](https://github.com/user-attachments/assets/6325528a-6ead-47ec-829a-c88e757ac814)
 
