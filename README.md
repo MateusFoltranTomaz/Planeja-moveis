@@ -6,6 +6,6 @@
 
 *Tela de cadastro (Incompleto) ✅
 
-![image](https://github.com/user-attachments/assets/8596cee0-9bce-47e8-b958-7bbb34f1a8eb)
+![image](https://github.com/user-attachments/assets/6325528a-6ead-47ec-829a-c88e757ac814)
 
 **Site em criação! 🔨🏗️
