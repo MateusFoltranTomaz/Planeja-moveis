@@ -1,4 +1,4 @@
-**Planeja movéis 🪑
+**Planeja móveis 🪑
 
 - Criado utilizando conhecimentos em HTML, CSS e JS
 - Um site para monitoramento de estoque
