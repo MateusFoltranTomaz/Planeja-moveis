@@ -1,4 +1,4 @@
-##Planeja móveis 🪑
+**Planeja móveis 🪑
 
 - Criado utilizando conhecimentos em HTML, CSS e JS
 - Um site para monitoramento de estoque
@@ -10,7 +10,6 @@
 
 *Tela de login 💻
 
-![image](https://github.com/user-attachments/assets/ac799e84-3fa8-4a30-8006-a597b185a9dd)
-
+![image](https://github.com/user-attachments/assets/dcba7555-f668-49d1-9fd6-b624306264a7)
 
 **Site em criação! 🔨🏗️
