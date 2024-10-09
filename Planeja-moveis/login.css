@@ -1,0 +1,131 @@
+/* Define a cor de fundo do corpo da página */
+body {
+background-color: #fffef6; /* Cor de fundo bege claro */
+}
+
+/* Estilo para informações alinhadas no centro e em negrito */
+.info {
+text-align: center;
+font-size: 17px;
+font-family: Verdana, Geneva, Tahoma, sans-serif; /* Define a fonte */
+font-weight: bold; /* Deixa o texto em negrito */
+}
+
+/* Estilo para títulos, alinhado no centro e com tamanho maior */
+.titulo {
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif; /* Define a fonte */
+font-size: 25px; /* Define um tamanho de fonte maior */
+font-weight: bold; /* Negrito */
+}
+
+/* Estilo para a imagem na esquerda da tela */
+.img1 {
+float: left; /* Faz a imagem flutuar à esquerda */
+margin-left: 200px; /* Distância da imagem até a borda esquerda */
+margin-top: 55px; /* Espaçamento superior para afastar da borda superior */
+width: 350px; /* Define a largura da imagem */
+height: auto; /* Mantém a proporção da altura da imagem */
+}
+
+/* Contêiner flexível para centralizar a div do login */
+.container {
+display: flex; /* Aplica o layout flexível */
+margin-left: 850px; /* Afasta o contêiner da borda esquerda */
+align-items: center; /* Centraliza verticalmente os itens dentro do contêiner */
+height: 100vh; /* Altura da tela inteira */
+}
+
+/* Estilo para o bloco de login */
+.DadosLogin {
+background-color: #fffef6; /* Cor de fundo bege claro */
+padding: 40px; /* Espaçamento interno da div */
+border-radius: 20px; /* Bordas arredondadas */
+box-shadow: 0 4px 15px; /* Adiciona uma sombra suave ao redor da div */
+width: 300px; /* Largura da div de login */
+height: auto; /* Altura automática de acordo com o conteúdo */
+}
+
+/* Estilo dos campos de input no formulário de login */
+.DadosLogin input {
+width: 100%; /* Ocupa toda a largura disponível */
+padding: 5px; /* Espaçamento interno nos inputs */
+font-size: 15px; /* Tamanho da fonte nos campos de input */
+border-radius: 8px; /* Bordas suavemente arredondadas nos inputs */
+}
+
+/* Estilo para as labels dos campos de input */
+.DadosLogin label {
+font-size: 16px; /* Tamanho da fonte das labels */
+margin-bottom: 50px; /* Espaçamento vertical entre a label e o input */
+font-family: Verdana, Geneva, Tahoma, sans-serif; /* Define a fonte */
+}
+
+/* Estilo para os botões de envio e cadastro */
+.LoginEnvio, .CadastroVolta {
+padding: 8px 12px; /* Tamanho do preenchimento interno dos botões */
+font-size: 1em; /* Tamanho da fonte nos botões */
+width: 150px; /* Largura dos botões */
+border-radius: 20px; /* Bordas arredondadas */
+cursor: pointer; /* Define o ponteiro como uma mão ao passar sobre o botão */
+margin-bottom: 10px; /* Espaçamento inferior entre os botões */
+display: block; /* Faz o botão ocupar uma linha inteira */
+margin-left: 77px; /* Centraliza os botões horizontalmente */
+background-color: beige; /* Cor de fundo dos botões */
+}
+
+.modal-button{
+    margin-left: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-underline-position: under; 
+    display: inline-block;
+    background-color: #fffef6; /* Blue background */
+    color: rgb(0, 0, 0); /* White text */
+    padding: 10px 20px; /* Padding */
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer; /* Pointer cursor on hover */
+    justify-content: center;
+}
+
+.modal-button:hover {
+  background-color: #d16943; /* Darker blue on hover */
+  color: #fffef6;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 250px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%;
+  }
+  
+  .closeBtn {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .closeBtn:hover,
+  .closeBtn:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
