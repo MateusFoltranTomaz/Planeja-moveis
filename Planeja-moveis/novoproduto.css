@@ -1,0 +1,131 @@
+/* Estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    background-color: #fffef6;
+    padding: 20px;
+}
+
+.title {
+    position: absolute;
+    top: 13%;
+    left: 19%;
+    text-decoration: underline;
+    font-family: Arial, sans-serif;
+    font-size: xx-large;
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 90px;
+    padding: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    background-color: #D9D9D9;
+}
+
+label {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.button-container {
+    display: flex;
+    gap: 50%;
+}
+
+.botaoEnvio, .botaoSalvar {
+    padding: 8px 12px;
+    font-size: 1em;
+    width: 150px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    background-color: bisque;
+    margin-top: 25px;
+    border: 2px solid #e5ab95;
+}
+
+img {
+    float: right;
+    margin-right: 200px;
+    margin-top: -5px;
+    width: 300px;
+    height: auto;
+}
+
+/* Centralização e formatação de produtos */
+.produtos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.title2 { 
+    font-family: Arial, sans-serif;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #000;
+    text-align: center;
+    margin-top: 250%;
+}
+/*Container dos produtos em geral */
+.lista-produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 80%;
+    margin-top: 20px;
+}
+/*Estiliza cada produto */
+.produto-linha {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 2px solid #e5ab95;
+    border-radius: 10px;
+    text-align: center;
+}
+/*aplica estilos à imagem do produto dentro de cada item.*/
+.produto-linha img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+/*Botão de excluir*/
+.produto-linha button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: bisque;
+    border: 2px solid #e5ab95;
+}

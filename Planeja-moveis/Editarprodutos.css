@@ -1,0 +1,76 @@
+/* Estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    display: flex;
+    justify-content: space-between; /* Mantém o formulário à esquerda e a imagem à direita */
+    align-items: center;
+    height: 100vh;
+    background-color: #fffef6;
+    padding: 20px;
+}
+
+.title {
+    position: absolute;
+    top: 13%;
+    left: 19%;
+    text-decoration: underline;
+    font-family: Arial, sans-serif;
+    font-size: xx-large;
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    width: 40%; /* Formulário ocupa 40% da largura da página */
+    margin-left: 90px;
+    padding: 20px;
+    
+    
+}
+ input {
+    width: 100%; /* Ocupa toda a largura disponível */
+    padding: 10px; /* Espaçamento interno nos inputs */
+    font-size: 15px; /* Tamanho da fonte nos campos de input */
+    border-radius: 15px; /* Bordas suavemente arredondadas nos inputs */
+    margin-bottom: 10px; /* Espaçamento vertical entre a label e o input */
+    border: 2px solid black;
+    background-color: #D9D9D9;
+}
+   
+ label {
+    font-size: 16px; /* Tamanho da fonte das labels */
+    margin-bottom: 10px; /* Espaçamento vertical entre a label e o input */
+    font-family: Arial, sans-serif;
+
+}
+.button-container {
+    display: flex; /* Ativa o flexbox */
+    gap: 50%; /* Espaçamento entre os botões */
+}
+
+/* Estilos dos botões */
+.botaoEnvio, .botaoSalvar {
+padding: 8px 12px; /* Tamanho do preenchimento interno dos botões */
+font-size: 1em; /* Tamanho da fonte nos botões */
+width: 150px; /* Largura dos botões */
+border-radius: 20px; /* Bordas arredondadas */
+cursor: pointer; /* Define o ponteiro como uma mão ao passar sobre o botão */
+margin-bottom: 10px; /* Espaçamento inferior entre os botões */
+background-color: #D9D9D9 ; /* Cor de fundo dos botões */
+margin-top: 25px;
+border: 2px solid black;
+}
+
+img {
+    float: right; /* Faz a imagem flutuar à esquerda */
+    margin-right: 200px; /* Distância da imagem até a borda esquerda */
+    margin-top: -5px; /* Espaçamento superior para afastar da borda superior */
+    width: 300px; /* Define a largura da imagem */
+    height: auto; /* Mantém a proporção da altura da imagem */
+}

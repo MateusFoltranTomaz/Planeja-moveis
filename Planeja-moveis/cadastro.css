@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url(/img/movel2.PNG);
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    max-width: 320px;
+    width: 100%;
+    height: max-content;
+}
+
+h1 {
+    text-align: center;
+    
+    color: #d16943;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 85%;
+    padding: 10px;
+    margin-left: 20px;
+    border: 1px solid #000000;
+    border-radius: 25px;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+button {
+    width: 70%;
+    padding: 10px;
+    background-color: #d16943;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+input[type="submit"]:hover{
+    background-color: #444;
+}
+
+button:hover {
+    background-color: #000000;
+
+}
+
+label{
+    margin-left: 20px;
+}
