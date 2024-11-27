@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Produtos.js" defer></script>
+    <link rel="stylesheet" href="Produtos.css">
+    <title>Produtos</title>
+</head>
+<body>
+    <div class="cabecalho">
+        <div class="logo-container">
+            <img src="./Img/sofa.png" alt="Planejamoveis" class="logo">
+        </div>
+
+        <div class="botoes-centro">
+            <button onclick="paginaInicial()" type='button' class="addProdutos">Página inicial</button>
+            <button onclick="TelaCompra()" type='button' class="addProdutos">Confirmar compra</button>
+        </div>
+
+        <div class="conta-botoes">
+            <div class="conta-opcao">
+                <img src="./Img/pessoa.png" alt="Trocar Conta" class="icon">
+                <button type='button' class="trocarConta" onclick="logintela()">Trocar de conta</button>
+            </div>
+            <div class="conta-opcao">
+                <img src="./Img/sair.png" alt="Sair Conta" class="icon">
+                <button type='button' class="sairConta" onclick="cadastrotela()">Sair da conta</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="produtos">
+        <div id="listaProdutos" class="lista-produtos"></div>
+    </div>
+    <footer>
+        <p class="TitleRDP">&copy; 2024 - Todos os direitos reservados</p>
+        <nav>
+          <ul>
+            <li><a href="#">Termos de uso</a></li>
+            <li><a href="#">Política de privacidade</a></li>
+            <li><a href="#">Sobre nós</a></li>
+            <li><a href="#">Contato</a></li>
+          </ul>
+        </nav>
+      </footer>
+</body>
+</html>

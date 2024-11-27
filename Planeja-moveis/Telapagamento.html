@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Telapagamento.css">
+    <script src="Telapagamento.js" defer></script>
+    <title>Tela pagamento</title>
+</head>
+<body>
+    
+    <div class="cabecalho">
+        
+        <div class="logo-container">
+            <img src="./Img/sofa.png" alt="Planejamoveis" class="logo">
+        </div>
+
+        <div class="botoes-centro">
+            <button type='button' class="paginaProdutos" onclick="pgInicial()">Página inicial</button>
+            <button type='button' class="addProdutos" onclick="pgProdutos()">Voltar aos produtos</button>
+        </div>
+
+        <div class="conta-botoes">
+            <div class="conta-opcao">
+                <img src="./Img/pessoa.png" alt="Trocar Conta" class="icon">
+                <button type='button' class="trocarConta" onclick="Trocarconta()">Trocar de conta</button>
+            </div>
+            <div class="conta-opcao">
+                <img src="./Img/sair.png" alt="Sair Conta" class="icon">
+                <button type='button' class="sairConta" onclick="Sairconta()">Sair da conta</button>
+     </div>
+     </div>
+     </div>
+     
+    <div class="Móveis-info">
+     <div class="radioMovel">
+
+      <h2>Informações do móvel</h2>
+      
+      <input type="radio" name="option" value="option1">
+      <label>Móvel planejado</label>
+
+      <input type="radio" name="option" value="option1">
+      <label>Mesa de jantar</label>
+      
+      <input type="radio" name="option" value="option1">
+      <label>Sofá</label>
+      
+      <input type="radio" name="option" value="option1">
+      <label>Outro</label>
+
+      
+      </div>
+
+      <div class="info-card">
+      <h2>Cadastrar cartão</h2>
+      <input id = "numCar" type="number" placeholder="Numero do cartão">
+      <input id = "nomeCard" type="text" placeholder="Nome do cartão">
+      <input id = "data" type="number" placeholder="NM/AA">
+      <input id = "Securitycode" type="number" placeholder="Código de segurança">
+
+      
+      </div>
+      
+    </div>
+    <div class="Confirmar-compra">
+        <img class="img1" src="Img/LOGO2.0.jpg" alt="Planejamoveis">
+        <button type='button' class="Comprabtn" onclick="abrirmodal()">Confirmar compra</button>
+    </div>
+</body>
+<footer>
+    <p class="TitleRDP">&copy; 2024 - Todos os direitos reservados</p>
+    <nav>
+      <ul>
+        <li><a href="#">Termos de uso</a></li>
+        <li><a href="#">Política de privacidade</a></li>
+        <li><a href="#">Sobre nós</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
+  </footer>
+   
+  <div id="modalLogin" class="modal">
+    <div class="modal-conteudo">
+      <h2>Compra finalizada ✅</h2>
+        <button  onclick="Continuar()">Continuar</button>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>

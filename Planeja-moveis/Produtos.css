@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+
+}
+body{
+    height: 100vh;
+}
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFEF6;
+    padding: 20px 40px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 100%;
+    height: auto;
+}
+
+.botoes-centro {
+    display: flex;
+    gap: 20%;
+}
+
+.botoes-centro button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 288px;
+    height: 60px;
+}
+
+.botoes-centro button:hover {
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border: 2px solid #1A1A1A;
+    background-color: #d16943;
+}
+
+.conta-botoes {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.conta-opcao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon {
+    width: 50%;
+    height: 50%;
+    margin-bottom: 2%;
+}
+
+.trocarConta, .sairConta {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    text-align: center;
+}
+
+.trocarConta:hover{
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border: 2px solid #1A1A1A;
+    background-color: #d16943;
+}
+
+.sairConta:hover{
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border: 2px solid #1A1A1A;
+    background-color: #d16943;
+}
+
+.foto1{
+    position: absolute;
+    width: 50%;
+    height: 65%;
+    border-radius: 10%;
+    margin-left: 26%;
+    margin-top: 5%;
+}
+/* Produtos */
+.produtos {
+    padding: 20px;
+}
+
+.lista-produtos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Produto Card */
+.produto-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.produto-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.produto-imagem {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.produto-nome {
+    font-size: 25px;
+    color: black;
+    margin-top: 1px;
+    border-bottom: 1px solid black;
+    display: inline-block;
+    padding-bottom: -1px;
+    width: 100%;
+    margin-bottom: 15px ;
+}
+
+.produto-preco {
+    font-size: 13px;
+    color: gray;
+    margin-bottom: -1px;
+}
+
+.produto-descricao {
+    font-size: 13px;
+    color: #777;
+    margin-top: 5px;
+}
+
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .lista-produtos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .produto-card {
+        width: 90%;
+    }
+}
+/* Rodapé */
+footer {
+  margin-top: 25%;
+  background-color: #d78969;
+  color: #fff;
+  text-align: center;
+  padding: 15px 10px;
+  width: 100%;
+}
+
+footer nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+footer nav ul li {
+  display: inline;
+}
+
+footer nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+footer nav ul li a:hover {
+  text-decoration: underline;
+}

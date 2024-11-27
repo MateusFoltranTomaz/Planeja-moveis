@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Planeja-Móveis</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="login.js"></script>
+
+</head>
+<body>
+    
+    <img class="img1" src="img/LOGO2.0.jpg">
+    
+ 
+
+ <div class="container">
+ <div class="DadosLogin">
+   <p class="titulo">Login </p>
+    <label for="email">E-mail:</label>
+    <p></p>
+    <input type="email" id="email" placeholder="Digite seu e-mail">
+    <p></p>
+    <label for="password">Senha:</label>
+    <p></p>
+    <input type="password" id="senha"placeholder="Insira sua senha">
+    <p></p>
+        <div class="button-container">
+              <button type='button' class="LoginEnvio"  onclick="Logar()">Entrar</button>
+              <button type='button' class="CadastroVolta" onclick="VoltarCadastro()">Cadastrar</button>
+        </div>
+          <div>
+            <p class="info">Acesse sua conta ou se cadastre!<p></p>
+          </div>
+          
+          
+          <button type="button" class="modal-button" id="modal-button" onclick="displayModal()">Termos de serviço</button>
+          
+          <div id="myModal" class="modal">
+            <div class="modal-content">
+              <span class="closeBtn" id="closeBtn">&times;</span>
+              <p>Ao adicionar informações, descrever móveis ou fazer upload de imagens no Site, 
+                você mantém os direitos sobre o conteúdo, mas concede ao Planeja-Móveis uma licença mundial, 
+                não exclusiva, livre de royalties para usar, 
+                exibir e distribuir esse conteúdo para operar os Serviços.
+                Você garante que detém todos os direitos necessários 
+                sobre o conteúdo que compartilha no Site e que não viola os direitos de terceiros.</p>
+            </div>
+          </div>
+ </div>
+ </div>
+ <footer>
+    <p class="TitleRDP">&copy; 2024 - Todos os direitos reservados</p>
+    <nav>
+      <ul>
+        <li><a href="#">Termos de uso</a></li>
+        <li><a href="#">Política de privacidade</a></li>
+        <li><a href="#">Sobre nós</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
+  </footer>
+
+</body>
+</html>
